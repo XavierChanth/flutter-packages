@@ -33,7 +33,7 @@ target_link_libraries(${PLUGIN_NAME} PRIVATE flutter flutter_wrapper_plugin)
 target_compile_definitions(${PLUGIN_NAME} PRIVATE "_HAS_EXCEPTIONS=1")
 
 # List of absolute paths to libraries that should be bundled with the plugin
-set(file_selector_bundled_libraries
+set(file_selector_windows_bundled_libraries
   ""
   PARENT_SCOPE
 )
