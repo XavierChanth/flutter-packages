@@ -18,8 +18,8 @@ list(APPEND PLUGIN_SOURCES
 )
 
 add_library(${PLUGIN_NAME} SHARED
-  "file_selector_windows.cpp"
   "include/file_selector_windows/file_selector_windows.h"
+  "file_selector_windows.cpp"
   ${PLUGIN_SOURCES}
 )
 apply_standard_settings(${PLUGIN_NAME})
